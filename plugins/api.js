@@ -1,7 +1,7 @@
 import { useAppStore } from "~/stores/app";
 
 export default defineNuxtPlugin(async (nuxtApp) => {
-    const appStore = useAppStore();
+     const appStore = useAppStore();
     const runtimeConfig = useRuntimeConfig();
     const baseUrl = runtimeConfig.public.apiBase;
     const isCookie = runtimeConfig.public.AUTH_TYPE.toLowerCase() === 'cookie';
