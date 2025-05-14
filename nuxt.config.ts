@@ -47,7 +47,7 @@ export default defineNuxtConfig({
 
     public: {
       ENVIRONMENT: 'Development',
-      apiBase: 'https://localhost:7106/api/',
+      apiBase: 'https://test.vnitpay.com.ng/api/',
       AUTH_TYPE: 'jwt',
       CLIENT_URL:"",
       GOOGLE_CLIENTID:"",
